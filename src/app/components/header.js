@@ -10,9 +10,9 @@ const Header = () => {
             </div>
 
             <div className={styles.linksdiv}>
-                <Link className={styles.nav} href="/">MEET THE TEAM</Link>
-                <Link className={styles.nav} href="/">CANDIDATES</Link>
-                <Link className={styles.nav} href="/">CLIENTS</Link>
+                <Link className={styles.nav} href="/meetteam">MEET THE TEAM</Link>
+                <Link className={styles.nav} href="/candidates">CANDIDATES</Link>
+                <Link className={styles.nav} href="/clients">CLIENTS</Link>
                 <Link className={styles.nav} href="/">OTHER SERVICES</Link>
             </div>
 
