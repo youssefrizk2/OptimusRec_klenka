@@ -23,9 +23,9 @@ const Header = () => {
             </div>
 
             <div className={styles.socialdiv}>
-                <Image src="/optimus_instagram.png" alt="Instagram" width={32} height={32}/>
-                <Image src="/optimus_linkedin.png" alt="LinkedIn" width={32} height={32}/>
-                <Image src="/optimus_facebook.png" alt="Facebook" width={32} height={32}/>
+                <Image className={styles.soc} src="/optimus_instagram.png" alt="Instagram" width={32} height={32}/>
+                <Image className={styles.soc} src="/optimus_linkedin.png" alt="LinkedIn" width={32} height={32}/>
+                <Image className={styles.soc} src="/optimus_facebook.png" alt="Facebook" width={32} height={32}/>
             </div>
         </div>
     );

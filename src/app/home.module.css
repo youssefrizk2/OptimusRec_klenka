@@ -38,6 +38,7 @@
     padding: 0;
     margin:15px;
     margin-top:0;
+    margin-bottom: 0;
     height: 84px;
 }
 
@@ -69,4 +70,5 @@
     font-weight: bold;
     height:48px;
     width:128px;
+    cursor: pointer;
 }

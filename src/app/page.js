@@ -15,7 +15,7 @@ export default function Home() {
       </div>
       <div className={styles.search}>
 
-      <p>I’m looking for a job in </p>
+      <p>I'm looking for a job in </p>
 
       <select className={styles.dropdown}>
           <option value="option1">All Sectors</option>
