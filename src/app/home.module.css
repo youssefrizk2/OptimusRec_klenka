@@ -110,3 +110,112 @@
     line-height: 1.5;
 }
 
+.jobsearch{
+    display: flex;
+    flex-direction: column;
+    height: 470px;
+    width:100%;
+    max-width: 100%;
+    background-color: #5c2453;
+}
+
+.jobsearchkey{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: #9ea0a2;
+    padding: 0;
+    margin-top:10px;
+    margin-bottom: 0;
+    height: 80px;
+    font-weight: bold;
+}
+
+.keyw{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width:50%; 
+    justify-content: right;   
+}
+
+.keywordtxt{
+    display: flex;
+    color:#5b6871;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-right: 20px;
+}
+
+.jobstext{
+    margin-left: 170px;
+    color:white;
+    font-size: 25px;
+
+}
+.jobsearchlogo{
+    width:50%;
+}
+.keylogo{
+    margin-right: 170px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.jobsearchlist{
+    display: flex;
+    flex-direction: row;
+}
+
+.category{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 170px;
+}
+
+.salary{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.salarytxt{
+    display: flex;
+    color:#5b6871;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-right: 20px;
+}
+
+.salarybutton{
+    justify-content: left;
+    border: none;
+    border-radius: 5px;
+    color:white;
+    background-color: #e51990;
+    font-weight: bold;
+    padding: 12px;
+    font-size: 14px;
+    margin-top:20px;
+    cursor: pointer;
+    width:90px;
+
+}
+
+.salarylistitem{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    color:white;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.ulitem{
+    color:white;
+}

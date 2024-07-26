@@ -51,6 +51,51 @@ export default function Home() {
         organisations from blue chip global banks to independent trust companies
         </p>
       </div>
+      <div className={styles.jobsearch}>
+        <div className={styles.jobsearchkey}>
+          <div className={styles.jobsearchlogo}>
+          <p className={styles.jobstext}>JOB SEARCH</p>
+          </div>
+          <div className={styles.keyw}>
+            <div className={styles.keylogo}>
+            <p className={styles.keywordtxt}>KEYWORD</p>
+            <input className={styles.dropdown} type="text" placeholder="Keyword" />
+            </div>
+          </div>
+        </div>
+        <div className={styles.jobsearchlist}>
+          <div className={styles.category}>
+            
+          </div>
+
+          <div className={styles.salary}>
+            <b className={styles.salarytxt}>SALARY</b>
+            <ul className={styles.salarylist}>
+              <li className={styles.salarylistitem}>
+                <input type="checkbox" />
+                <p className={styles.ulitem}>20K-30K</p>
+              </li>
+              <li className={styles.salarylistitem}>                
+                <input type="checkbox" />
+                <p className={styles.ulitem}>30K-45K</p>
+              </li>
+              <li className={styles.salarylistitem}>                
+                <input type="checkbox" />
+                <p className={styles.ulitem}>45K-60K</p>
+              </li>
+              <li className={styles.salarylistitem}>                
+                <input type="checkbox" />
+                <p className={styles.ulitem}>65K-85K</p>
+              </li>
+              <li className={styles.salarylistitem}>                
+                <input type="checkbox" />
+                <p className={styles.ulitem}>85K+</p>
+              </li>
+            </ul>
+            <button className={styles.salarybutton}>Search</button>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
