@@ -16,3 +16,131 @@
     position: relative; 
 
 }
+
+.registerdiv{
+    background-image: url("/home_r.png");
+    height:160px;
+    width: 100%;
+    max-width: 100%;
+}
+
+.registertext{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    margin-left: 150px;
+}
+
+.regtext{
+    display: flex;
+    position: relative;
+    justify-content: left;
+    align-items: center;
+    color:white;
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+.registerbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    color:white;
+    border:0.8px solid white;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    height:48px;
+    width:128px;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: row;
+    height: 470px;
+    width: 100%;
+    max-width: 100%;
+}
+
+
+.contactlogo{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+    margin:15px;
+    margin-top:30px;
+    margin-bottom: 0;
+    margin-left: 150px;
+    height: 90%;
+}
+
+.contactimg{
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    color: #9ea0a2;
+    font-weight: bold;
+    margin-bottom:20px;
+}
+
+.soc{
+    cursor: pointer;
+    margin:15px;    
+}
+
+.contactsocdiv{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+    
+}
+
+.contacttext{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    color:#5b6871;
+    margin-top: 0px;
+    font-size: 20px;
+    line-height: 1.5;
+
+}
+
+.opt{
+    color: #5b6871;
+    font-size: 25px;
+    line-height: 2.5;
+
+}
+
+.pink{
+    color:#e51990;
+}
+
+.contactmap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 470px;
+    width: 100%;
+    max-width: 100%;
+}
+
+
+.maplink{
+    background-image: url("/maplink.png");
+    height: 470px;
+    width: 100%;
+    max-width: 100%;
+
+}

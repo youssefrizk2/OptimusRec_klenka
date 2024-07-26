@@ -51,8 +51,6 @@ export default function Home() {
         organisations from blue chip global banks to independent trust companies
         </p>
       </div>
-
-
     </div>
   );
 }
