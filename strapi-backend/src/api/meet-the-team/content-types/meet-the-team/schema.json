@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "meet_the_teams",
+  "info": {
+    "singularName": "meet-the-team",
+    "pluralName": "meet-the-teams",
+    "displayName": "Meet The Team"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "Description": {
+      "type": "blocks",
+      "required": true
+    },
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Phone": {
+      "type": "biginteger",
+      "required": true,
+      "unique": true
+    },
+    "Email": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}
