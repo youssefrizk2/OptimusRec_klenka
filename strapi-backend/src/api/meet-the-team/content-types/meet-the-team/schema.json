@@ -4,7 +4,8 @@
   "info": {
     "singularName": "meet-the-team",
     "pluralName": "meet-the-teams",
-    "displayName": "Meet The Team"
+    "displayName": "Meet The Team",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -33,6 +34,17 @@
       "type": "string",
       "required": true,
       "unique": true
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
     }
   }
 }
