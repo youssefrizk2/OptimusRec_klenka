@@ -26,12 +26,12 @@ const Footer = () => {
             Jersey, JE2 3RU
             </p>
             <b>Tel:        <span className={styles.pink}>01534 832660</span></b>
-            <b>Email:      <span className={styles.pink}>info@optimus.je </span></b>
+            <b>Email:      <a className={styles.mail} href="mailto:info@optimus.je"><span className={styles.pink}>info@optimus.je </span></a></b>
             <div className={styles.contactsocdiv}>
                 <b>Follow Us</b>
-                <Image className={styles.soc} src="/optimus_instagram.png" alt="Instagram" width={52} height={52}/>
-                <Image className={styles.soc} src="/optimus_linkedin.png" alt="LinkedIn" width={52} height={52}/>
-                <Image className={styles.soc} src="/optimus_facebook.png" alt="Facebook" width={52} height={52}/>
+                <a target="_blank" href="https://www.instagram.com/optimusrecruitmentjersey/" ><Image className={styles.soc} src="/optimus_instagram.png" alt="Instagram" width={52} height={52}/></a>
+                <a target="_blank" href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQF0s4uPAr7b6gAAAZEjDpVgkivS8I7CrewU9wR90JnWaEEqXAjtQQw2-GHl1MsEHsltd4VfWjODvgTovgVdTlAFRsjxqa1-ynpuZJR4nHIwZa7OVmiLYNESKjtJBp182k_bM9k=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Foptimus-recruitment" ><Image className={styles.soc} src="/optimus_linkedin.png" alt="LinkedIn" width={52} height={52}/></a>
+                <a target="_blank" href="https://www.facebook.com/optimusrecruitment" ><Image className={styles.soc} src="/optimus_facebook.png" alt="Facebook" width={52} height={52}/></a>
             </div>
         </div>
         </div>
