@@ -1,0 +1,80 @@
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.image{
+    position: relative;
+    background-image: url("/clients.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 100%;
+    max-width: 100%;
+    height: 400px; 
+}
+
+.imagetext{
+    position: absolute;
+    top: 65%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 38px;
+    font-weight: 500;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+}
+
+.contentcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    flex-direction: column;
+    width: 100%;
+    max-width: 100%;
+    padding: 10px;
+    margin:100px;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 800px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    flex-direction: column;
+    width: 80%;
+    max-width: 80%;
+    color: rgb(91, 104, 113);
+    padding: 0;
+    margin:0;
+    height: 800px;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+
+}
+
+.mail{ 
+    display:inline;
+    color: #5c2453;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.linktext{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    width:100%;
+}
